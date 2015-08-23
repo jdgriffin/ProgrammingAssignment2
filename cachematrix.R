@@ -1,4 +1,6 @@
-## The makeCacheMatrix function creates a special "matrix" 
+## Assignment 2 - cachematrix
+
+##The makeCacheMatrix function creates a special "matrix" 
 ## which is really a list containing a functions to:
 ## set the matrix
 ## get the matrix
@@ -24,7 +26,8 @@ makeCacheMatrix <- function(x = matrix()) {
   
 }
 
-## Write a short comment describing this function
+## The cacheSolve function checks if the inverse matrix has been stored, if not it uses solve() to 
+## inverse it and then stores it.
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'.
